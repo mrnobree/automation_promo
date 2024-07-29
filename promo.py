@@ -48,11 +48,11 @@ def extrair_relatorio():
     pyautogui.click(1712, 305)
     time.sleep(1)
     pyautogui.click(1712, 335)
-    time.sleep(1)
+    time.sleep(2)
 
     # INFORMAR CODIGO
     pyautogui.click(1526, 171)
-    time.sleep(1)
+    time.sleep(2)
 
 def ler_proximo_codigo(sheet, coluna_origem, coluna_marcador):
     # Itera sobre as linhas da planilha
