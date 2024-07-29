@@ -51,7 +51,7 @@ def extrair_relatorio():
     time.sleep(2)
     pyautogui.click(1616, 169)
     time.sleep(2)
-    
+
     # INFORMAR CODIGO
     pyautogui.click(1526, 171)
     time.sleep(2)
@@ -78,7 +78,7 @@ def inserir_codigo_no_erp(valor):
         print(f"Inserindo valor: {valor}")
         pyautogui.write(str(valor))
         pyautogui.press('enter')  # Pesquisando item
-        time.sleep(2)
+        time.sleep(3)
 
 def selecionando_item():
     # Selecionando item
@@ -87,15 +87,15 @@ def selecionando_item():
 
     # Complementar
     pyautogui.click(563, 398)
-    time.sleep(1)
+    time.sleep(2)
 
     # Caracteristica
     pyautogui.click(1117, 758)
-    time.sleep(1)
+    time.sleep(2)
 
     # Adicionar
     pyautogui.click(661, 363)
-    time.sleep(1)
+    time.sleep(2)
 
     # Informando caracteristica
     pyautogui.click(695, 517)
