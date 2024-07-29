@@ -36,6 +36,20 @@ def extrair_relatorio():
     pyautogui.click(136,439)
     time.sleep(4)
 
+    # Aplicando filtro
+    pyautogui.click(1808, 168)
+    time.sleep(1)
+    pyautogui.click(1712, 225)
+    time.sleep(1)
+    pyautogui.click(1712, 252)
+    time.sleep(1)
+    pyautogui.click(1712, 282)
+    time.sleep(1)
+    pyautogui.click(1712, 305)
+    time.sleep(1)
+    pyautogui.click(1712, 335)
+    time.sleep(1)
+
     # INFORMAR CODIGO
     pyautogui.click(1526, 171)
     time.sleep(1)
@@ -62,7 +76,7 @@ def inserir_codigo_no_erp(valor):
         print(f"Inserindo valor: {valor}")
         pyautogui.write(str(valor))
         pyautogui.press('enter')  # Pesquisando item
-        time.sleep(1)
+        time.sleep(2)
 
 def selecionando_item():
     # Selecionando item
