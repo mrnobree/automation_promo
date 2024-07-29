@@ -49,7 +49,9 @@ def extrair_relatorio():
     time.sleep(1)
     pyautogui.click(1712, 335)
     time.sleep(2)
-
+    pyautogui.click(1616, 169)
+    time.sleep(2)
+    
     # INFORMAR CODIGO
     pyautogui.click(1526, 171)
     time.sleep(2)
